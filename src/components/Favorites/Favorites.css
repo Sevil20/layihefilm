@@ -1,0 +1,40 @@
+.favorites {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 8, 7);
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.favorites__name {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 8, 7, .5);
+    margin-bottom: 24px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.favorites__list {
+    margin-bottom: 24px;
+}
+
+.favorites__save {
+    border: none;
+    background-color: #2d4eb3;
+    padding: 10px 15px;
+    color: #FFEEDB;
+    font-size: 14px;
+    transition: all 0.2s linear;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 8, 7, .5);
+}
+
+.favorites__save:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all 0.2s linear;
+    background-color: #152e7a;
+    transform: scale(1.02);
+}
